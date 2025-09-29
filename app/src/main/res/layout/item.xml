@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66" />
+  <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7" />
+  <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+
+  <TextView
+      android:id="@+id/CcyNm_Uz"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Aqsh Dollori"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/gTop"
+      app:layout_constraintEnd_toStartOf="@+id/gStart"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <TextView
+      android:id="@+id/Naminal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Naminal"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/gButton"
+      app:layout_constraintEnd_toEndOf="@id/gStart"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/gTop" />
+
+  <TextView
+      android:id="@+id/diff"
+      android:layout_width="62dp"
+      android:layout_height="27dp"
+      android:gravity="center"
+      android:text="Diff"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/gStart"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/gButton" />
+
+  <TextView
+      android:id="@+id/Date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:gravity="center"
+      android:textSize="18sp"
+      android:text="2025.06.09"
+      app:layout_constraintBottom_toTopOf="@+id/gTop"
+      app:layout_constraintEnd_toStartOf="@+id/gEnd"
+      app:layout_constraintStart_toStartOf="@+id/gStart"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <TextView
+      android:id="@+id/uzb_somi"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Uzb so'mi"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/gTop"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/gEnd"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/rate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Rate"
+      android:gravity="center"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/gButton"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/gEnd"
+      app:layout_constraintTop_toTopOf="@+id/gTop" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView"
+      android:gravity="center"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/gEnd"
+      app:layout_constraintTop_toTopOf="@+id/gButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
